@@ -9,7 +9,7 @@ console.log(btnGenerater);
 btnGenerater.addEventListener('click',() => {
 
     function RandomElement(array){
-      return Math.floor(Math.random(array)*array.length);
+      return Math.floor(Math.random()*array.length);
     }
 
     let RandomWho= who[RandomElement(who)]
